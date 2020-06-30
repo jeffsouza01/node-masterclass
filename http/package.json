@@ -1,7 +1,7 @@
 {
-  "name": "http",
+  "name": "http-study",
   "version": "1.0.0",
-  "description": "",
+  "description": "Testing Node Fuctions",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",

@@ -10,8 +10,8 @@ http.createServer((req, res)  => {
     const allowedFiles = ['.html', '.css', '.js']
     const allowed = allowedFiles.find( item => item == extname)
 
-
     if (!allowed) return 
+
     if(req.url === '/') {
         fs.readFile(filePath,
         (err, content) => {

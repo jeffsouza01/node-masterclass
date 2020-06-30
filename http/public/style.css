@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background: #7159c1;
+    background: #0d3092;
 }
 
 .container {
@@ -28,7 +28,7 @@ h1 {
 input {
     width: 100%;
     padding: 8px 16px;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     border-radius: 16px;
     border: 1px solid #ccc;
 
@@ -52,7 +52,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(192, 187, 187);
 }
 
 
@@ -71,6 +71,30 @@ li:first-child,
 li:last-child {
     border: none;
 }
+
+button {
+    width: 100%;
+    padding: 8px 16px;
+    margin-bottom: 32px;
+    border-radius: 12px;
+    background: #3179e6;
+    color: #eee;
+    border: 1px solid #ccc;
+
+    outline: none;
+
+    font-size: 1.6rem;
+    font-weight: 300;
+    transition: 1s;
+}
+
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    color: #000;
+}
+
 
 li span {
     cursor: pointer;
